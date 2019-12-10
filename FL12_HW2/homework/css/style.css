@@ -1,74 +1,92 @@
 @media print {
-	.tm-main-nav {
-		display: none;
-	}
+    .tm-main-nav {
+        display: none;
+    }
 
-@media print {
-	.tm-main-content,
-	.tm-content-box {
-		padding-top: 0;
-		margin-bottom: 0;
-	}
-}
 
-@media print {
-	.tm-main-nav,
-	.tm-side-bar,
-	.flex-item img,
-	#about,
-	.gallery-container,
-	.img-fluid,
-	#contact {
-		display: none;
-	}
-}
+    .flex-item img,
+    #about,
+    ul.gallery-container,
+    div#tmCarousel ol,
+    img.img-fluid,
+    div#contact {
+        display: none;
+    }
 
-@media print {
-	.padding-medium {
-		max-width: 1300px;
-		padding-top: 0px;
-	}
-}
+    .tm-team-description-container,
+    .padding-medium,
+    div.carousel,
+    .container {
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+    }
 
-@media print {
-	div.padding-medium {
-		text-align: center;
-		}
-	}
+    .carousel.slide {
+        padding-top: 5px;
+    }
 
-@media print {
-	.padding-medium h2 {
-	 font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-	}
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-@media print {
-	.tm-section-title,
-	.padding-medium h2 {
-		text-transform: uppercase;
-		font-size: 35px;
-		color: lightskyblue;
-	}
-}
+    .tm-main-content,
+    .tm-content-box {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
 
-@media print {
-	.padding-medium ol {
-		list-style: none;
-	}
-}
+    .tm-content-box {
+        text-align: center;
+        margin-bottom: 0;
+    }
 
-@media print {
-	.container {
-		padding: 0 0 0 0;
-		margin: 0 0 0 0;
-	}
-}
+    .tm-section-title,
+    .padding-medium h2 {
+        text-transform: uppercase;
+        font-size: 35px;
+        color: lightskyblue;
+        font-weight: 300;
+    }
 
-@media print {
-	.tm-banner {
-		padding: 30px;
-		width: 800px;
-	}
+    .padding-medium ol {
+        list-style: none;
+    }
+
+    .padding-medium ol {
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+
+    section.tm-content-box {
+        padding-top: 0 10px 0 10px;
+    }
+
+    li:nth-child(even) {
+       text-align: left;
+    }
+
+    li:nth-child(odd) {
+        text-align: right;
+    }
+
+    .blocks div.padding-medium p:first-child {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .blocks div.padding-medium p:last-child { 
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        text-align-last: justify;
+    }
+
+    .tm-footer,
+    .tm-footer p {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
