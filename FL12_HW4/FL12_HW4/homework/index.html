@@ -1,219 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FRONT-END LAB</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>FRONT-END LAB</title>
+   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/575b8fd0da.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
-	<header class="main-header">
-		<nav class="main-navigation">
-			<div class="main-navigation-wrapper">
-				<div class="navigation-container">
-					<p class="main-header-logo">
-						<a href="#">Front-end Lab</a>
-					</p>
-			
-					<ul class="header-list">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-				<div class="main-page">
-					<h1 class="main-page-title">Hello! This is Front-end Lab.</h1>
-					<p class="main-page-subtitle">EPAM Front-end Lab</p>
-					<input type="button" value="Discover More" class="btn-home">
-				</div>
+<header class="main-header">
+   <div class="main-navigation">
+      <a class="main-logo site-link allupper" href="#">Front-end Lab</a>
+      <nav class="navigation-list">
+         <a class="site-link" href="#">Home</a>
+         <a class="site-link" href="#">About</a>
+         <a class="site-link" href="#">Gallery</a>
+         <a class="site-link" href="#">Contact</a>
+      </nav>
+   </div>
 
-		</nav>
-	</header>
+   <div class="main-page">
+      <h1 class="main-page-title">Hello! This is Front-end Lab.</h1>
+      <p class="main-page-subtitle">EPAM Front-end Lab</p>
+      <span class="button allupper">Discover More</span>
+   </div>
+</header>
 
-		<main class="container">
+<main>
+   <section class="article-block container">
+      <h2 class="visually-hidden">All articles</h2>
 
-		<article class="article-block">
+         <article class="article"> <!--post-wrap-->
+            <img class="article-img" src="img/blog-image1.jpg" alt="article-img">
+            <div class="article-content">
+               <h2 class="article-title">We Help You Make front-end Great Again</h2>
+               <div class="article-author">
+                  <div class="article-author-wrap article-author-item">
+                     <img class="author-img" src="img/author-image1.jpg" alt="author-img">
+                     <span>Jen Lopez</span>
+                  </div>
+                  <span class="article-data">July 22, 2017</span>
+                  <i class="far fa-comment"></i>
+                  <p class="article-comments">30 Comments</p>
+                  </div>
+                  <p class="article-text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+               </div>
+               <span class="button article-btn">Continue Reading</span>
+         </article>
 
-			<div class="section-img">
-				<img src="img/blog-image1.jpg" alt="article-photo">
-			</div>
-			<h2 class="article-title">We Help You To Make Front-end Great Again</h2>
+         <article class="article">
+            <img class="article-img" src="img/blog-image2.jpg" alt="article-img">
+            <div class="article-content">
+               <h2 class="article-title">In pretium tellus et ante accumsan</h2>
+               <div class="article-author">
+                  <div class="article-author-wrap article-author-item">
+                     <img class="author-img" src="img/author-image2.jpg" alt="author-img">
+                     <span>Leo Denis</span>
+                  </div>
+                  <span class="article-data">Jun 10, 2017</span>
+                  <p class="article-comments">48 Comments</p>
+                  </div>
+                  <p class="article-text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+                <span class="button article-btn">Continue Reading</span>
+         </article>
 
-			<div class="article-info">
-				<div class="article-author">
-					<div class="author-photo">
-						<img src="img/author-image1.jpg" alt="author-photo">
-					</div>
+         <article class="article">
+            <img class="article-img" src="img/blog-image3.jpg" alt="article-img">
+            <div class="article-content">
+               <h2 class="article-title">Nam interdum maximus dolor faucibus</h2>
+               <div class="article-author">
+                  <div class="article-author-wrap article-author-item">
+                     <img class="author-img" src="img/author-image1.jpg" alt="author-img">
+                     <span>Jen Lopez</span>
+                  </div>
+                  <span class="article-data">May 30, 2017</span>
+                  <p class="article-comments">63 Comments</p>
+                  </div>
+                  <p class="article-text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur.
+                   </p>
+            </div>
+            <span class="button article-btn">Continue Reading</span>
+         </article>
 
-					<div class="author-inf">
-						<span>Jen Lopez</span>
-						<span>July 22, 2017</span>
-						<span>35 Comments</span>
-					</div>
-					<p class="article-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur.
-					</p>
-					<input type="button" value="Continue Reading" class="article-btn">
-				</div>
-			</div>
-			<hr>
-		</article>
+         <article class="article">
+            <img class="article-img" src="img/blog-image4.jpg" alt="article-img">
+            <div class="article-content">
+               <h2 class="article-title">The ingredients that make a great burger</h2>
+               <div class="article-author">
+                  <div class="article-author-wrap article-author-item">
+                     <img class="author-img" src="img/author-image2.jpg" alt="author-img">
+                     <span>Leo Denis</span>
+                  </div>
+                  <span class="article-data">April 18, 2017</span>
+                  <p class="article-comments">124 Comments</p>
+                  </div>
+                  <p class="article-text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur.
+                   </p>
+               </div>
+            <span class="button article-btn">Continue Reading</span>
+         </article>
 
-		<article class="article-block">
+         <article class="article">
+            <img class="article-img" src="img/blog-image5.jpg" alt="article-img">
+            <div class="article-content">
+               <h2 class="article-title">Vestibulum vel mauris nec ex tempus</h2>
+               <div class="article-author">
+                  <div class="article-author-wrap article-author-item">
+                     <img class="author-img" src="img/author-image1.jpg" alt="author-img">
+                     <span>Jen Lopez</span>
+                  </div>
+                  <span class="article-data">March 12, 2017</span>
+                  <p class="article-comments">256 Comments</p>
+                  </div>
+                  <p class="article-text">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                     Duis aute irure dolor in reprehenderit in voluptate velit 
+                     esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+            </div>
+            <span class="button article-btn">Continue Reading</span>
+        </article>
+    </section>
+</main>
 
-			<div class="section-img">
-				<img src="img/blog-image2.jpg" alt="article-photo">
-			</div>
-			<h2 class="article-title">In pretium tellus et ante accumsan</h2>
-			
-			<div class="article-info">
-				<div class="article-author">
-					<div class="author-photo">
-						<img src="img/author-image2.jpg" alt="author-photo">
-					</div>
-
-					<div class="author-inf">
-						<span>Leo Dennis</span>
-						<span>June 10, 2017</span>
-						<span>48 Comments</span>
-					</div>
-					<p class="article-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur.
-					</p>
-					<input type="button" value="Continue Reading" class="article-btn">
-				</div>
-			</div>
-		</article>
-
-		<article class="article-block">
-
-			<div class="section-img">
-				<img src="img/blog-image3.jpg" alt="article-photo">
-			</div>
-			<h2 class="article-title">Nam interdum maximus dolor faucibus</h2>
-			
-			<div class="article-info">
-				<div class="article-author">
-					<div class="author-photo">
-						<img src="img/author-image1.jpg" alt="author-photo">
-					</div>
-
-					<div class="author-inf">
-						<span>Jen Lopez</span>
-						<span>May 30, 2017</span>
-						<span>63 Comments</span>
-					</div>
-					<p class="article-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur.
-					</p>
-					<input type="button" value="Continue Reading" class="article-btn">
-				</div>
-			</div>
-		</article>
-
-		<article class="article-block">
-
-			<div class="section-img">
-				<img src="img/blog-image4.jpg" alt="article-photo">
-			</div>
-			<h2 class="article-title">The ingredients that make a great burger</h2>
-			
-			<div class="article-info">
-				<div class="article-author">
-					<div class="author-photo">
-						<img src="img/author-image2.jpg" alt="author-photo">
-					</div>
-
-					<div class="author-inf">
-						<span>Leo Dennis</span>
-						<span>April 18, 2017</span>
-						<span>124 Comments</span>
-					</div>
-					<p class="article-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur.
-					</p>
-					<input type="button" value="Continue Reading" class="article-btn">
-				</div>
-			</div>
-		</article>
-
-		<article class="article-block">
-
-			<div class="section-img">
-				<img src="img/blog-image5.jpg" alt="article-photo">
-			</div>
-			<h2 class="article-title">Vestibulum vel mauris nec ex tempus</h2>
-			
-			<div class="article-info">
-				<div class="article-author">
-					<div class="author-photo">
-						<img src="img/author-image1.jpg" alt="author-photo">
-					</div>
-
-					<div class="author-inf">
-						<span>Jen Lopez</span>
-						<span>March 12, 2017</span>
-						<span>124 Comments</span>
-					</div>
-					<p class="article-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna
-						aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur.
-					</p>
-					<input type="button" value="Continue Reading" class="article-btn">
-				</div>
-			</div>
-		</article>
-	</main>
-
-	<footer class="main-footer">
-		<div class="footer-wrap">
-
-			<div class="footer-section">
-				<h2>EPAM LAB</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-					sed diam nonumy eirmod tempor invidunt ut labore et dolore
-					magna aliquyam erat, sed diam voluptua.
-				</p>
-				<p>Copyright © 2019 EPAM</p>
-			</div>
-			
-			<div class="footer-section">
-				<h2>Talk to us</h2>
-				<p>512 Delicious Street, San Francisco, CA 10880</p>
-				<p>010-020-0990</p>
-				<p>info@company.com</p>
-			</div>
-		</div>
-	</footer>
-	
+<footer class="main-footer container">
+   <div class="main-footer-wrap">
+      <div class="main-footer-item footer-text">
+         <h2 class="main-footer-title allupper">epam lab</h2>
+         <p class="main-footer-article">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua.
+         </p>
+         <span class="main-footer-article">Copyright © 2019 EPAM</span>
+      </div>
+      <div class="main-footer-item footer-text">
+         <h2 class="main-footer-title">Talk to us</h2>
+         <address class="main-footer-article">512 Delicious Street, San Francisco, CA 10880</address>
+         <a class="main-footer-article" href="tel:+010-020-0990">010-020-0990</a>
+         <a class="main-footer-article" href="mailto:info@company.com">info@company.com</a>
+      </div>
+   </div>
+</footer>
 </body>
 </html>
